@@ -30,7 +30,7 @@ When you create a Backstage _app_, you are creating your own installation of Bac
 You get to take full advantage of a platform that we at Spotify have been using internally for years. But you also get to make it your own — starting with its name. You can rename the Backstage app anything you want, so that you can call it something that best fits your organization. Be creative!
 ## How do I create an app?
 
-Just run the `backstage-cli`:
+Just run the backstage-cli:
 
 ```bash
 npx @backstage/cli create-app
@@ -120,7 +120,7 @@ We also know that each organization has different needs and will create their ow
 In the root of your app directory (`<root>`) run:
 
 ```bash
-npx @backstage/cli create-plugin
+yarn create-plugin
 ```
 
 This command will create a new plugin in `<root>/plugins/` and register it to your app automatically.
