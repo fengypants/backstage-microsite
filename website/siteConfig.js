@@ -38,18 +38,18 @@ const siteConfig = {
     { page: "blog", blog: true, label: "Blog" },
     { page: "demos", label: "Demos" },
     { page: "background", label: "The Spotify story" },
-    { href: "https://forms.gle/diN2zFYW7YbP17gE7", label: "Request live demo" },
+    { href: "https://mailchi.mp/spotify/backstage-community", label: "Newsletter" },
   ],
 
   /* path to images for header/footer */
   // headerIcon: "img/android-chrome-192x192.png",
   footerIcon: "img/android-chrome-192x192.png",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.svg",
 
   /* Colors for website */
   colors: {
     primaryColor: "#36BAA2",
-    secondaryColor: "#191414",
+    secondaryColor: "#121212",
     textColor: "#FFFFFF",
     navigatorTitleTextColor: "#9e9e9e",
     navigatorItemTextColor: "#616161"
